@@ -1,0 +1,155 @@
+.display-container {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+    min-height: 100vh;
+  }
+  
+  .display-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  
+  .emotion-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .emotion-box {
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    text-transform: capitalize;
+  }
+  
+  .emotion-box.anger { background-color: #e63946; }
+  .emotion-box.fear { background-color: #6a4c93; }
+  .emotion-box.happy { background-color: #f1c40f; color: #222; }
+  .emotion-box.love { background-color: #e91e63; }
+  .emotion-box.sad { background-color: #3498db; }
+  
+  .add-song-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .search-input {
+    padding: 10px 14px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7; 
+    margin: 24px 0;
+    width: 98%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  .modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(8px);
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
+  }
+  
+  .close-modal {
+    margin-top: 10px;
+    background-color: #ddd;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .app-title {
+    font-size: 52px;
+    font-weight: 800;
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.15);
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    gap: 12px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.pagination button {
+    background-color: #1e1e2f;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    font-size: 14px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+.pagination button:hover {
+    background-color: #44446a;
+    transform: scale(1.05);
+}
+
+.pagination button:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.pagination span {
+    font-size: 15px;
+}
+
+.success-popup {
+  position: fixed;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4caf50;
+  color: white;
+  padding: 16px 32px;
+  border-radius: 10px;
+  font-size: 18px;
+  z-index: 2000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+    }
+    to {
+      text-shadow: 0 0 16px rgba(255, 255, 255, 0.6);
+    }
+  }

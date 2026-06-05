@@ -1,0 +1,41 @@
+
+.upload-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .upload-form input[type="text"],
+  .upload-form textarea,
+  .upload-form input[type="file"] {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .upload-form textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .upload-form button {
+    padding: 10px;
+    font-weight: bold;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .upload-form button:hover {
+    background-color: #555;
+  }
+  
+  .upload-status {
+    font-size: 14px;
+    color: #444;
+    margin-top: 5px;
+  }

@@ -1,0 +1,128 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.popup-modal-content {
+  position: relative;
+  background-color: #fdfdfd;
+  color: #333;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  max-width: 1000px;
+  width: 90%;
+  gap: 20px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.2);
+}
+
+.popup-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: #555;
+  cursor: pointer;
+}
+
+.popup-left {
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popup-main {
+  flex: 1;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.popup-main img {
+  max-width: 240px;   
+  max-height: 240px;  
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.popup-artist {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.popup-lyrics pre {
+  white-space: pre-wrap;     
+  word-break: break-word;    
+  overflow-wrap: anywhere;   
+  margin: 0;
+}
+
+.popup-lyrics {
+  flex: 1;
+  max-height: 400px;
+  overflow-y: auto;                
+  overflow-x: hidden;            
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+
+  white-space: pre-wrap;          
+  word-break: break-word;
+  overflow-wrap: break-word;
+
+  max-width: 600px;              
+  width: fit-content;            
+}
+.popup-status {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #888;
+}
+
+.nav-button {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: #333;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-button:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.1);
+}
+
+.nav-button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.inline-left {
+  position: relative;
+  left: 0;
+}
+
+.inline-right {
+  position: relative;
+  right: 0;
+}

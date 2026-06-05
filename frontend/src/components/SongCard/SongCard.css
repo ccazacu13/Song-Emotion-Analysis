@@ -1,0 +1,70 @@
+.songcard-wrapper {
+    margin-bottom: 20px;
+  }
+  
+  .song-card {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.75); 
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .song-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .song-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  .song-info {
+    flex: 1;
+  }
+  
+  .song-info .title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+  
+  .song-info .artist {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .tags {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .tag {
+    padding: 4px 10px;
+    border-radius: 16px;
+    font-size: 12px;
+    color: white;
+    text-transform: capitalize;
+  }
+
+  .upload-form label {
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    display: block;
+  }
+  
+  .tag.anger { background-color: #e63946; }
+  .tag.fear { background-color: #6a4c93; }
+  .tag.happy { background-color: #f1c40f; color: #222; }
+  .tag.love { background-color: #e91e63; }
+  .tag.sad { background-color: #3498db; }
+  .tag.none{display:none}
