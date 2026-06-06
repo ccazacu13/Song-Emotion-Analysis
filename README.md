@@ -18,6 +18,11 @@ Unlike traditional sentiment analysis, which focuses on positive, negative, or n
 
 A custom dataset was created specifically for this task, combining information collected from online sources and music streaming data.
 
+<p align="center">
+  <img src="assets/emotion-wheel.png" width="400">
+  <p align="center">1.Emotion wheel</p>
+</p>
+
 ---
 
 ## Dataset
@@ -83,6 +88,11 @@ The project compares both classical machine learning methods and deep learning a
 | BERT   | **0.617**           |
 
 The Transformer-based approach achieved the best overall performance, showing a stronger ability to capture semantic nuances that are common in song lyrics.
+
+<p align="center">
+  <img src="assets/error-analysis.png" width="700">
+  <p align="center">2.Confusion matrices for error distribution</p>
+</p>
 
 ## Observations
 
