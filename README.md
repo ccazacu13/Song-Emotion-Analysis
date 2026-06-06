@@ -109,10 +109,10 @@ Lyric Extraction -> Build Dataset -> Text Preprocessing -> Feature Representatio
 **Song Emotion Analysis**
 Bachelor's Thesis
 
-**Author:** Cristian Gabriel Cazacu
-**Supervisor:** Conf. Dr. Liviu Petrișor Dinu
-**University of Bucharest**
-**Faculty of Mathematics and Computer Science**
+**Author:** Cristian Gabriel Cazacu  
+**Supervisor:** Conf. Dr. Liviu Petrișor Dinu  
+**University of Bucharest**  
+**Faculty of Mathematics and Computer Science**  
 
 ---
 
