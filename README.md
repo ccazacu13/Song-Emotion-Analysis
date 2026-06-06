@@ -29,8 +29,6 @@ A custom dataset was created specifically for this task, combining information c
 
 Since no suitable public dataset was available for this problem, a dedicated dataset was built through web crawling and lyric collection.
 
----
-
 ### Dataset characteristics
 
 * 16,900 collected songs
