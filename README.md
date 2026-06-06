@@ -29,6 +29,8 @@ A custom dataset was created specifically for this task, combining information c
 
 Since no suitable public dataset was available for this problem, a dedicated dataset was built through web crawling and lyric collection.
 
+---
+
 ### Dataset characteristics
 
 * 16,900 collected songs
@@ -53,6 +55,8 @@ Several preprocessing techniques were evaluated to improve classification qualit
 * Stemming
 
 The experiments showed that lightweight preprocessing combined with stemming provides the most consistent improvements.
+
+---
 
 ## Models Evaluated
 
@@ -94,15 +98,21 @@ The Transformer-based approach achieved the best overall performance, showing a 
   <p align="center">2.Confusion matrices for error distribution</p>
 </p>
 
+---
+
 ## Observations
 
 Music is inherently ambiguous because lyrics only tell half the story. While standard text models focus entirely on vocabulary, the true feeling of a song depends heavily on its background music. A line of text that reads as happy on paper can instantly shift to a feeling of deep sadness, irony, or anger depending entirely on the arrangement, tempo, instrumentation, and key of the musical backing track.
+
+---
 
 ## Project Pipeline
 
 ```text
 Lyric Extraction -> Build Dataset -> Text Preprocessing -> Feature Representation -> Model Training -> Evaluation and Error Analysis
 ```
+
+---
 
 ## Future Improvements
 
